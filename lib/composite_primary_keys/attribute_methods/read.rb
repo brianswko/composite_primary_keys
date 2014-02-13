@@ -38,5 +38,5 @@ module ActiveRecord
 end
 
 ActiveRecord::Base.class_eval do
-  alias :[] :read_attribute
+  #alias :[] :read_attribute
 end
