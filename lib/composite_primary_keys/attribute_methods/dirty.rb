@@ -30,6 +30,6 @@ module ActiveRecord
 end
 
 ActiveRecord::Base.class_eval do
-  alias :[]= :write_attribute
+  #alias :[]= :write_attribute
   public :[]=
 end
